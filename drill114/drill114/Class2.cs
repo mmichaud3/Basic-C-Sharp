@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace drill114
 {
-   public class Class1
+    public class Class2
     {
         public int Meth1(int x, int y)
         {
@@ -20,12 +20,12 @@ namespace drill114
             decimal floor = Math.Floor(result);
             return floor;
         }
-        public string  Meth1(string g, int d)
+        public int Meth1(string g, int d)
         {
-            
+
             int h = Convert.ToInt32(g);
             int f = d / h;
-            return f; 
+            return f;
         }
     }
 }

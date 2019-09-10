@@ -5,3 +5,10 @@ C:\Users\thetechacademy\source\repos\drill114\drill114\obj\Debug\drill114.csproj
 C:\Users\thetechacademy\source\repos\drill114\drill114\obj\Debug\drill114.csproj.CoreCompileInputs.cache
 C:\Users\thetechacademy\source\repos\drill114\drill114\obj\Debug\drill114.exe
 C:\Users\thetechacademy\source\repos\drill114\drill114\obj\Debug\drill114.pdb
+C:\Users\thetechacademy\source\repos\Basic-C-Sharp\drill114\drill114\obj\Debug\drill114.csprojAssemblyReference.cache
+C:\Users\thetechacademy\source\repos\Basic-C-Sharp\drill114\drill114\obj\Debug\drill114.csproj.CoreCompileInputs.cache
+C:\Users\thetechacademy\source\repos\Basic-C-Sharp\drill114\drill114\obj\Debug\drill114.exe
+C:\Users\thetechacademy\source\repos\Basic-C-Sharp\drill114\drill114\obj\Debug\drill114.pdb
+C:\Users\thetechacademy\source\repos\Basic-C-Sharp\drill114\drill114\bin\Debug\drill114.exe.config
+C:\Users\thetechacademy\source\repos\Basic-C-Sharp\drill114\drill114\bin\Debug\drill114.exe
+C:\Users\thetechacademy\source\repos\Basic-C-Sharp\drill114\drill114\bin\Debug\drill114.pdb

@@ -10,19 +10,19 @@ namespace drill114
     {
         static void Main(string[] args)
         {
-            var c = new Class1();
+            var c = new Class2();
             int x = 100;
             int y = 50;
             Console.WriteLine("The sum of 100 and 150 is: " + c.Meth1(x, y));
             Console.ReadLine();
 
-            var e = new Class1();
+            var e = new Class2();
             decimal a = 2.2m;
             decimal b = 5.5m;
             Console.WriteLine(" The product rounded down is : " + e.Meth1(a, b));
             Console.ReadLine();
 
-            var s = new Class1();
+            var s = new Class2();
             string g = "two";
             int h = 2;
             int d = 20;
