@@ -1,0 +1,7 @@
+C:\Users\thetechacademy\source\repos\step113\step113\obj\Debug\step113.csprojAssemblyReference.cache
+C:\Users\thetechacademy\source\repos\step113\step113\obj\Debug\step113.csproj.CoreCompileInputs.cache
+C:\Users\thetechacademy\source\repos\step113\step113\bin\Debug\step113.exe.config
+C:\Users\thetechacademy\source\repos\step113\step113\bin\Debug\step113.exe
+C:\Users\thetechacademy\source\repos\step113\step113\bin\Debug\step113.pdb
+C:\Users\thetechacademy\source\repos\step113\step113\obj\Debug\step113.exe
+C:\Users\thetechacademy\source\repos\step113\step113\obj\Debug\step113.pdb
