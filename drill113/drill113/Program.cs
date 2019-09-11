@@ -13,7 +13,8 @@ namespace drill113
             var j = new Class1();
             int x = 5;
             int y = 10;
-            Console.WriteLine(j.Meth3(x,y));
+            j.Meth3(x,y);
+            j.Meth3(x: 5, y: 10);
         }
     }
 }
