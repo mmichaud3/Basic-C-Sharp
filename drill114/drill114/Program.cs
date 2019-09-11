@@ -23,7 +23,7 @@ namespace drill114
             Console.ReadLine();
 
             var s = new Class2();
-            string j = "20";
+            string j = "2";
             int h = 2;
            
             Console.WriteLine("The Quotient is : " + s.Meth1(j, h));
