@@ -24,25 +24,27 @@ namespace step134
             {
                 Console.WriteLine("Day of week?");
                 var day = Console.ReadLine();
-                foreach (string dayOfWeek in Enum.GetNames(typeof(WeekDay)))
+                
                 {
 
-                    var days = Enum.Parse(typeof(WeekDay), dayOfWeek);
-                    if (day == Convert.ToString(days))
+                    var days = Enum.Parse(typeof(WeekDay), day);//parses enum into seperate days
+                    if (day == Convert.ToString(days))// checks enum day against user input
                     {
 
 
                         Console.WriteLine("Today is " + days);
                         Console.ReadLine();
                     }
-                    else if (day != Convert.ToString(days))
-                    {
-                        Console.WriteLine("Today is not " + day);
-                        Console.ReadLine();
+                    //else if (day != Convert.ToString(days))
+                    //{
+                    //    Console.WriteLine("Today is not " + day);
+                    //    Console.ReadLine();
+                    //}
+
                     }
-                }
+                
             }
-            catch(Exception ex)
+            catch(Exception)
             {
                 Console.WriteLine("Please enter an actual day of the week.");
                 Console.ReadLine();
