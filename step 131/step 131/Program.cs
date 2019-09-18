@@ -19,16 +19,14 @@ namespace step_131
             DOB.Things = new List<int>();
             DOB.Things.Add(37);
 
-            foreach (string Employee in issuedGear.Things)
-            {
-                foreach (int Employee2 in DOB.Things)
-                {
+            DOB.ListThings();
+            issuedGear.ListThings();
+            Console.ReadLine();
 
-
-                    Console.WriteLine(Employee, Employee2);
-                    Console.ReadLine();
+           
+                   
                 }
             }
         }
-    }
-}
+    
+
