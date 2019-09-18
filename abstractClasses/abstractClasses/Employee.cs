@@ -17,6 +17,29 @@ namespace abstractClasses
             Console.WriteLine("This game has ended.");
             
         }
-       
+        public static Employee operator== (Employee employee, Employee employee2)
+        {
+            
+          if (employee.firstName == employee2.firstName)
+            {
+                Console.WriteLine(" same ");
+            }
+          else if (employee.firstName != employee2.firstName)
+            {
+                Console.WriteLine(" not same ");
+            }
+
+        }
+        public static Employee operator!= (Employee employee, Employee employee2)
+        {
+            if (employee.firstName != employee2.firstName)
+            {
+                Console.WriteLine("not same");
+            }
+            else if (employee.firstName == employee2.firstName)
+            {
+                Console.WriteLine("same");
+            }
+        }
     }
 }

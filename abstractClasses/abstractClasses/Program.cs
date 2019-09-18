@@ -14,6 +14,13 @@ namespace abstractClasses
             employee.firstName = "Sample";
             employee.lastName = "Student";
 
+            Employee employee2 = new Employee();
+            employee.firstName = "Mike";
+            employee.lastName = "Michaud";
+
+            
+
+
             employee.SayName();
             Console.ReadLine();
 
