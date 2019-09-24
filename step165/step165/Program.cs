@@ -9,24 +9,35 @@ namespace step165
         static void Main(string[] args)
         {
             Console.WriteLine("What is your age?");
-            int userAge = Convert.ToInt32(Console.ReadLine());
-            var dobYear = DateTime.Now.AddYears(-userAge);
-         
+
             try
             {
+                int userAge = Convert.ToInt32(Console.ReadLine());
+                var dobYear = DateTime.Now.AddYears(-userAge);
+
+
+
                 if (userAge < 1)
                 {
                     Console.WriteLine("Please enter a number greater than zero.");
                     Console.ReadLine();
                 }
-                
-            } catch (Exception)
-            { 
+
+                else
+                {
+                    Console.WriteLine(dobYear.Year);
+                    Console.ReadLine();
+                }
+            }
+            catch (Exception)
+            {
+
+
                 Console.WriteLine("Something else went wrong.");
                 Console.ReadLine();
+
+
             }
-            Console.WriteLine(dobYear.Year);
-            Console.ReadLine();
         }
     }
 }

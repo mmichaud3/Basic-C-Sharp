@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Casino
 {
-    class FraudException
+    public class FraudException : Exception
     {
+        public FraudException()
+            : base() { }
+        public FraudException(string message)
+            : base (message) { }
     }
 }
