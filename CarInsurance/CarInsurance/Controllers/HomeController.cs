@@ -18,7 +18,7 @@ namespace CarInsurance.Controllers
         [HttpPost]
         public ActionResult Customer(string firstName, string lastName, string emailAddress,
                                      string dateOfBirth, int carYear, string carMake, string carModel,
-                                     string dui, int numberOfTickets, string fullOrLiability)
+                                     string dui, int numberOfTickets, string fullOrLiability, int? quote)
         {
             if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress) ||
                 string.IsNullOrEmpty(dateOfBirth) || string.IsNullOrEmpty(Convert.ToString(carYear)) ||
@@ -42,14 +42,14 @@ namespace CarInsurance.Controllers
                     customer.DUI = dui;
                     customer.NumberOfTickets = numberOfTickets;
                     customer.FullOrLiability = fullOrLiability;
-                   // customer.Quote = quote;
+                    customer.Quote = quote;
 
 
                     var today = DateTime.Today;
-                    int total = 50;
+                    int total = 0;
 
 
-                  
+                    quote = 50;
                     
                         var dob = Convert.ToDateTime(customer.DateOfBirth); // getting age and price additional cost for quote
 
@@ -88,7 +88,7 @@ namespace CarInsurance.Controllers
                     {
                                 total = total + 25;
                             }
-                        //}
+                        
                     if (customer.NumberOfTickets > 0)  //getting number of speeding tickets and additional cost for quote
                     {
                         total = total + (numberOfTickets * 10);
@@ -109,12 +109,12 @@ namespace CarInsurance.Controllers
                             }
                         
 
-                        customer.Quote = total;
+                        customer.Quote = quote + total;
 
                         db.Customers.Add(customer);
                         db.SaveChanges();
 
-                        @ViewBag.Total = total;
+                        @ViewBag.Total = customer.Quote + total;
 
                      
                     }
